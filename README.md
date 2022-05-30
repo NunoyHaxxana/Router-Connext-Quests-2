@@ -23,6 +23,26 @@
 - Automate to create and config file .env, key.yaml, config.json
 - Automate to delete nxtp-router file and docker-compose.
 
+# Project roadmap and milestones:
+| No           | Task | Start date | End date |
+| ------------ | :--------: | :--------: | :--------: |
+| 1            | Developer script | 21 May|  23 May |
+| 2            | Testing script | 23 May|  24 May |
+| 3            | Demo with Connext user and get feedback| 24 May|  05 June |
+| 4            | Improve with feedback| 05 June |  08 June |
+
+
+# KPIs (how can we measure the success of your project?)
+- Reduce time to setup new router servers (It should be finished in 5 mins).
+- Any user without unix command knowledge can install it.
+
+# Your professional background:
+- Background: More than 7 years experience in network radio engineer.
+- Main staff team from Contribution DAO thailand.
+
+# Have you already worked on similar projects:
+- Axelar for Mainnet validator.
+- Subquery for Indexer.
 
 ---
 
