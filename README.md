@@ -1,7 +1,30 @@
 ![router setup](https://user-images.githubusercontent.com/83507970/170120644-be13ee8c-486c-43e5-a2ce-f88c4f2aaaa5.png)
 
-# Script Automate to install Connext Router `last version` + `Auto update last version.`
+# Discord handle: 
+- Haxxana#5597
 
+# Name of the challenge/quest you are applying for: 
+- Quest 2 - Quick router setup.
+
+# Briefly describe your project: 
+- Developer shell script to help the user who needs to setup and upgrade a router to last version.  
+
+>:black_square_button: Script Automate to install Connext Router by auto detected last version + Auto update last version.<br>
+
+# Detailed project proposal:
+- Automate to install Docker.
+- Automate to install Docker-compose v2.5.1
+- Automate to install nxtp-router.
+- Automate to get & install Latest version.
+- Automate to get & update Latest version.
+- Automate to generate private key.
+- Automate to backup private key.
+- Automate to swith to amarok.
+- Automate to create and config file .env, key.yaml, config.json
+- Automate to delete nxtp-router file and docker-compose.
+
+
+---
 
 
 ### Requirements
