@@ -29,7 +29,7 @@
 
 ### Requirements
 
-- OS Ubuntu 18.04 or 20.04 
+- OS Ubuntu 20.04 
 >:black_square_button: 8GB RAM<br>
 >:black_square_button: 30GB Storage<br>
 - Need Super user or root for run this script.
