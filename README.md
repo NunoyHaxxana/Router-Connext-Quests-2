@@ -1,6 +1,7 @@
 ![router setup](https://user-images.githubusercontent.com/83507970/170120644-be13ee8c-486c-43e5-a2ce-f88c4f2aaaa5.png)
 
-#  I propose to build a tool that would help : Quick router setup
+#  I propose to build a tool that would help: 
+- Quick router setup
 
 # Discord handle: 
 - Haxxana#5597
@@ -36,10 +37,10 @@
 
 # KPIs (how can we measure the success of your project?)
 - Reduce time to setup new router servers (It should be finished in 5 mins).
-- Any user without unix command knowledge can install it.
+- Any user without unix command knowledge can use it.
 
 # Your professional background:
-- Background: More than 7 years experience in network radio engineer.
+- More than 7 years experience in network radio engineer.
 - Main staff team from Contribution DAO thailand.
 
 # Have you already worked on similar projects:
