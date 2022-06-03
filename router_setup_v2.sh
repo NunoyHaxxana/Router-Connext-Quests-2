@@ -98,6 +98,18 @@ docker pull ghcr.io/connext/router:$(cat $HOME/connext/nxtp-router-docker-compos
 }
 
 
+function manupvernxtp {
+cd $HOME/connext/nxtp-router-docker-compose
+read -p "Insert Router Version: " nxtpv
+cp .env.example .env
+echo " "
+echo -e "\e[1m\e[32mLast NXTP Version : $(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)\e[0m" && sleep 1
+sed -i 's/latest/'$(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)'/g' .env
+docker pull ghcr.io/connext/router:$(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)
+}
+
+
+
 function setautokeyfile {
 cd $HOME/connext/nxtp-router-docker-compose
 cp key.example.yaml key.yaml
@@ -162,7 +174,7 @@ rm -rf $HOME/connext/nxtp-router-docker-compose
 
 
 PS3='Please enter your choice (input your option number and press enter): '
-options=("Install with Auto PKey" "Install with Your PKey" "Upgrade Version" "Backup PKey" "Delete" "Quit")
+options=("Install with Auto PKey" "Install with Your PKey" "Auto Upgrade" "Manual Upgrade" "Backup PKey" "Delete" "Quit")
 
 select opt in "${options[@]}"
 do
@@ -198,7 +210,7 @@ echo -e "\e[1m\e[32mYour Router was Install!\e[0m" && sleep 1
 break
 ;;
 
-"Upgrade Version")
+"Auto Upgrade")
             echo -e '\e[1m\e[32mYou choose Upgrade Version ...\e[0m' && sleep 1
 dockerdown
 upvernxtp
@@ -209,6 +221,20 @@ break
 
 
 ;;
+
+"Manual Upgrade")
+            echo -e '\e[1m\e[32mYou choose Upgrade Version ...\e[0m' && sleep 1
+dockerdown
+manupvernxtp
+dockerpull
+dockerup
+echo -e "\e[1m\e[32mYour Router was upgraded to : $(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)\e[0m" && sleep 1
+break
+
+
+;;
+
+
 "Backup PKey")
 echo -e '\e[1m\e[32mYou choose Backup Private Key ...\e[0m' && sleep 1
 backupPK
