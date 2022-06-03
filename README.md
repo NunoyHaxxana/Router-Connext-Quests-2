@@ -90,7 +90,8 @@ Choose you wanted option (for example option 1 Install with Auto PKey), press en
 | 7            | Quit | Quit on menu | 
 
 
-
+- Auto Switched to a new branch 'amarok' and Auto get Last NXTP Version
+![image](https://user-images.githubusercontent.com/83507970/171803537-053a5b3f-b807-4eb5-b6c6-e230e8f9796e.png)
 
 ---
 
