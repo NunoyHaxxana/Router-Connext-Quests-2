@@ -70,24 +70,24 @@ wget -q -O router_setup.sh https://raw.githubusercontent.com/NunoyHaxxana/Router
 
 
 
-![image](https://user-images.githubusercontent.com/83507970/170120882-96064529-8c8f-444d-880a-c9f4e188f6b1.png)
+![image](https://user-images.githubusercontent.com/83507970/171801249-e684a66a-2f01-4746-a913-f46f99c33896.png)
+
 
 Choose you wanted option (for example option 1 Install with Auto PKey), press enter and wait for installation to complete.
 
- **1) Install with Auto PKey** `Automatically Install router and generate private key`
+
+# Menu options:
 
 
- **2) Install with Your PKey** `Automatically Install router with your private key`
-
-
- **3) Upgrade Version** `Upgrade router to new version`
-
-
- **4) Backup PKey** `Backup and show your private key`
-
-
- **5) Delete** `Delete Router and Data File`
-
+| No           | Task | Start date | 
+| ------------ | :--------: | :--------: | 
+| 1            | Install + Auto PKey | Automatically Install router and generate private key| 
+| 2            | Install + Your PKey | Automatically Install router with your private key| 
+| 3            | Auto Upgrade | Auto upgrade router to new version | 
+| 4            | Manual Upgrade | Manual upgrade router version |  
+| 5            | Backup PKey | Backup and show your private key | 
+| 6            | Delete | Delete Router and Data File |  
+| 7            | Quit | Quit on menu | 
 
 
 
