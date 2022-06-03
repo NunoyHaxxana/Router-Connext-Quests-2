@@ -100,12 +100,12 @@ docker pull ghcr.io/connext/router:$(cat $HOME/connext/nxtp-router-docker-compos
 
 function manupvernxtp {
 cd $HOME/connext/nxtp-router-docker-compose
-read -p "Insert Router Version: " nxtpv
+read -p "Insert Router Version: " nxtpv 
 cp .env.example .env
 echo " "
-echo -e "\e[1m\e[32mLast NXTP Version : $(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)\e[0m" && sleep 1
-sed -i 's/latest/'$(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)'/g' .env
-docker pull ghcr.io/connext/router:$(cat $HOME/connext/nxtp-router-docker-compose/nxtp.version)
+echo -e "\e[1m\e[32mInstall NXTP Version : ${nxtpv}\e[0m" && sleep 1
+sed -i 's/latest/'${nxtpv}'/g' .env
+docker pull ghcr.io/connext/router:${nxtpv}
 }
 
 
