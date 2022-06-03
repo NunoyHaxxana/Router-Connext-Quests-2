@@ -79,7 +79,7 @@ Choose you wanted option (for example option 1 Install with Auto PKey), press en
 # Menu options:
 
 
-| No           | Task | Start date | 
+| No           | Menu | Detail | 
 | ------------ | :--------: | :--------: | 
 | 1            | Install + Auto PKey | Automatically Install router and generate private key| 
 | 2            | Install + Your PKey | Automatically Install router with your private key| 
