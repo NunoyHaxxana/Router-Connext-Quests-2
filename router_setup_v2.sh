@@ -174,7 +174,7 @@ rm -rf $HOME/connext/nxtp-router-docker-compose
 
 
 PS3='Please enter your choice (input your option number and press enter): '
-options=("Install with Auto PKey" "Install with Your PKey" "Auto Upgrade" "Manual Upgrade" "Backup PKey" "Delete" "Quit")
+options=("Install + Auto PKey" "Install + Your PKey" "Auto Upgrade" "Manual Upgrade" "Backup PKey" "Delete" "Quit")
 
 select opt in "${options[@]}"
 do
