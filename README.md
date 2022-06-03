@@ -20,6 +20,7 @@
 - Automate to install nxtp-router.
 - Automate to get & install Latest version.
 - Automate to get & update Latest version.
+- Manual update version.
 - Automate to generate private key.
 - Automate to backup private key.
 - Automate to swith to amarok.
