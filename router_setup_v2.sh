@@ -44,6 +44,7 @@ curl -SL https://github.com/docker/compose/releases/download/v2.5.1/docker-compo
 sudo chmod +x /usr/local/bin/docker-compose
 sudo chown $USER /var/run/docker.sock
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+fi
 }
 
 
